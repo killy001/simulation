@@ -1,0 +1,135 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ATMLUT, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class ATMLUT.SpecturmHelper: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    WaveNumber2WaveLen(Double): PrivateScope, Public, Static, HideBySig
+    WaveLen2WaveNumber(Double): PrivateScope, Public, Static, HideBySig
+    RadInWaveNumber2WaveLen(Double, Double): PrivateScope, Public, Static, HideBySig
+Interface ATMLUT.Modtran.IModtranCard: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    Save(StreamWriter): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class ATMLUT.UpdateProcess: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Int32, Int32, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ATMLUT.SpecturmPoint: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double waveNumber : Public
+    Double value : Public
+Class ATMLUT.MetaCondition`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ComponentModel.INotifyPropertyChanged
+  Properties:
+    T Start    'get set' : 
+    T End      'get set' : 
+    Single Step 'get set' : 
+  Events:
+    System.ComponentModel.PropertyChangedEventHandler PropertyChanged: 
+  Methods:
+    add_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Start(): PrivateScope, Public, HideBySig, SpecialName
+    set_Start(T): PrivateScope, Public, HideBySig, SpecialName
+    get_End(): PrivateScope, Public, HideBySig, SpecialName
+    set_End(T): PrivateScope, Public, HideBySig, SpecialName
+    Count(MetaCondition`1): PrivateScope, Public, Static, HideBySig
+    Count(MetaCondition`1): PrivateScope, Public, Static, HideBySig
+    get_Step(): PrivateScope, Public, HideBySig, SpecialName
+    set_Step(Single): PrivateScope, Public, HideBySig, SpecialName
+Struct ATMLUT.ATMModel: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ATMLUT.ATMModel AM_NoATM = 0 : Public, Static, Literal, HasDefault
+    ATMLUT.ATMModel AM_TropicZone = 1 : Public, Static, Literal, HasDefault
+    ATMLUT.ATMModel AM_MidLatitudeSummer = 2 : Public, Static, Literal, HasDefault
+    ATMLUT.ATMModel AM_MidLatitudeWinter = 3 : Public, Static, Literal, HasDefault
+    ATMLUT.ATMModel AM_SubArcticSummer = 4 : Public, Static, Literal, HasDefault
+    ATMLUT.ATMModel AM_SubArcticWinter = 5 : Public, Static, Literal, HasDefault
+    ATMLUT.ATMModel AM_1976USStandard = 6 : Public, Static, Literal, HasDefault
+    ATMLUT.ATMModel AM_UserDefined = 7 : Public, Static, Literal, HasDefault
+Struct ATMLUT.AerosolModel: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ATMLUT.AerosolModel Aero_NoAerosolAttenuation = 0 : Public, Static, Literal, HasDefault
+    ATMLUT.AerosolModel Aero_Rural_23 = 1 : Public, Static, Literal, HasDefault
+    ATMLUT.AerosolModel Aero_Rural_5 = 2 : Public, Static, Literal, HasDefault
+    ATMLUT.AerosolModel Aero_Urban_5 = 5 : Public, Static, Literal, HasDefault
+Class ATMLUT.Modtran.ModtranInput: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    AddCard(IModtranCard): PrivateScope, Public, HideBySig
+    Save(String): PrivateScope, Public, HideBySig
+Class ATMLUT.CreateLUTDown: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ATMLUT.ATMLookUpTable: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ATMLUT.UpdateProcess updateProcess : Public
+    ATMLUT.CreateLUTDown createLUTDown : Public
+  Methods:
+    CreateLUT(InputParamConfig, String): PrivateScope, Public, HideBySig
+    GetSolarE(Int32): PrivateScope, Public, HideBySig
+    GetTao(Int32, Int32, Single, Single, Single): PrivateScope, Public, HideBySig
+    GetDownRad(Int32, Int32, Int32, Single, Single, Single, Single, Single): PrivateScope, Public, HideBySig
+    GetUpRad(Int32, Int32, Int32, Single, Single, Single, Single, Single): PrivateScope, Public, HideBySig
+    GetUpTao(Int32, Int32, Int32, Single, Single, Single, Single, Single): PrivateScope, Public, HideBySig
+Class ATMLUT.InputParamConfig: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ATMLUT.MetaCondition`1[System.Single] TargetHeightMC 'get set' : 
+    ATMLUT.MetaCondition`1[System.Single] SolarZenithMC 'get set' : 
+    ATMLUT.MetaCondition`1[System.Single] ViewZenithDC 'get set' : 
+    ATMLUT.MetaCondition`1[System.Single] RelativeAzimuthMC 'get set' : 
+    ATMLUT.MetaCondition`1[System.Single] SpectrumMC 'get set' : 
+    ATMLUT.MetaCondition`1[System.Single] VisibilityMC 'get set' : 
+    ATMLUT.MetaCondition`1[System.DateTime] ViewDateMC 'get set' : 
+    System.Collections.Generic.List`1[ATMLUT.ATMModel] AtmModel 'get set' : 
+    System.Collections.Generic.List`1[ATMLUT.AerosolModel] AeroModel 'get set' : 
+  Methods:
+    get_TargetHeightMC(): PrivateScope, Public, HideBySig, SpecialName
+    set_TargetHeightMC(MetaCondition`1): PrivateScope, Public, HideBySig, SpecialName
+    get_SolarZenithMC(): PrivateScope, Public, HideBySig, SpecialName
+    set_SolarZenithMC(MetaCondition`1): PrivateScope, Public, HideBySig, SpecialName
+    get_ViewZenithDC(): PrivateScope, Public, HideBySig, SpecialName
+    set_ViewZenithDC(MetaCondition`1): PrivateScope, Public, HideBySig, SpecialName
+    get_RelativeAzimuthMC(): PrivateScope, Public, HideBySig, SpecialName
+    set_RelativeAzimuthMC(MetaCondition`1): PrivateScope, Public, HideBySig, SpecialName
+    get_SpectrumMC(): PrivateScope, Public, HideBySig, SpecialName
+    set_SpectrumMC(MetaCondition`1): PrivateScope, Public, HideBySig, SpecialName
+    get_VisibilityMC(): PrivateScope, Public, HideBySig, SpecialName
+    set_VisibilityMC(MetaCondition`1): PrivateScope, Public, HideBySig, SpecialName
+    get_ViewDateMC(): PrivateScope, Public, HideBySig, SpecialName
+    set_ViewDateMC(MetaCondition`1): PrivateScope, Public, HideBySig, SpecialName
+    get_AtmModel(): PrivateScope, Public, HideBySig, SpecialName
+    set_AtmModel(List`1): PrivateScope, Public, HideBySig, SpecialName
+    get_AeroModel(): PrivateScope, Public, HideBySig, SpecialName
+    set_AeroModel(List`1): PrivateScope, Public, HideBySig, SpecialName
+    Save(String): PrivateScope, Public, HideBySig
+    Load(String): PrivateScope, Public, HideBySig
+Class ATMLUT.SolarRadianceLUT: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    MakeLUT(String): PrivateScope, Public, HideBySig
+    GetSolarRadiance(Int32): PrivateScope, Public, HideBySig

@@ -1,0 +1,10 @@
+﻿  RadiationOfSun.cpp
+d:\nssc\project\radiationofsun0512 - 副本\radiationofsun\Util.h(19): warning C4305: “初始化”: 从“double”到“float”截断
+RadiationOfSun.cpp(23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+RadiationOfSun.cpp(91): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+RadiationOfSun.cpp(151): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+RadiationOfSun.cpp(158): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+RadiationOfSun.cpp(195): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+RadiationOfSun.cpp(208): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  RadiationOfSun.vcxproj -> D:\NSSC\Project\RadiationOfSun0512 - 副本\x64\Debug\RadiationOfSun.exe
+  RadiationOfSun.vcxproj -> D:\NSSC\Project\RadiationOfSun0512 - 副本\x64\Debug\RadiationOfSun.pdb (Full PDB)

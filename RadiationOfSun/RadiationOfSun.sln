@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RadiationOfSun", "RadiationOfSun\RadiationOfSun.vcxproj", "{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Debug|Win32.Build.0 = Debug|Win32
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Debug|x64.ActiveCfg = Debug|x64
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Debug|x64.Build.0 = Debug|x64
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Release|Any CPU.ActiveCfg = Release|Win32
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Release|Win32.ActiveCfg = Release|Win32
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Release|Win32.Build.0 = Release|Win32
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Release|x64.ActiveCfg = Release|x64
+		{FC9E4ED7-6CE4-4C5A-95E3-79B21858BD71}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

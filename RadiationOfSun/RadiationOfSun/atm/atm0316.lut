@@ -1,0 +1,15 @@
+<DownHemiSphereRad>
+  <AtmosphereModel>3</AtmosphereModel>
+  <AerosolModel>5</AerosolModel>
+  <ViewDate>2016/3/16 0:00:00</ViewDate>
+  <Visibility>5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23</Visibility>
+  <TargetHeight>0.06</TargetHeight>
+  <SolarZenith>10</SolarZenith>
+  <ViewZenith>0,30,60</ViewZenith>
+  <RelativeAzimuth>-180,-90,0,90,180</RelativeAzimuth>
+  <SpecturmCount>61</SpecturmCount>
+  <DownTao_DestData>atm0316.lut.dt.dat</DownTao_DestData>
+  <DownHemiSphereRad_DestData>atm0316.lut.dhsr.dat</DownHemiSphereRad_DestData>
+  <UpHemiSphereTao_DestData>atm0316.lut.uhst.dat</UpHemiSphereTao_DestData>
+  <UpHemiSphereRad_DestData>atm0316.lut.uhsr.dat</UpHemiSphereRad_DestData>
+</DownHemiSphereRad>

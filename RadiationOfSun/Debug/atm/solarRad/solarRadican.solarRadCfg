@@ -1,0 +1,5 @@
+<SolarRadianceLUT>
+  <Days>365</Days>
+  <SpecturmCnt>61</SpecturmCnt>
+  <SpecturmDataFile>solarRadican.solarRad</SpecturmDataFile>
+</SolarRadianceLUT>
